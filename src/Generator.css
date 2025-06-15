@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.passwordBox {
+    background-color: rgb(249, 249, 249);
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.passwordBox:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); 
+}
+h1 {
+    font-family:'Times New Roman', Times, serif;    
+}
+.passwordBox-input {
+    display: flex;
+}
+.passwordBox-input input {
+    flex-basis: 88%;
+    height: 30px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+}
+.passwordBox-input button {
+    flex-basis: 12%;
+    border-radius: 0 8px 8px 0;
+    background-color: rgb(151, 245, 9);
+    border: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.passwordBox-input button:hover{
+    background-color: rgb(149, 233, 24);
+    cursor: pointer;
+
+}
+.passwordBox-input button img{
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+.passlength{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.passlength input{
+    padding: 10px 0;
+    width: 60px;
+    border-radius: 8px;
+    border: none;  
+}
+.passcheckbox{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.passcheckbox input{
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  position: relative;
+}
+.generate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: greenyellow;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.generate:hover{
+     background-color: rgb(161, 244, 35);
+}
+.delete{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(255, 82, 47);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.delete:hover{
+    background-color: rgb(247, 51, 11);
+}
